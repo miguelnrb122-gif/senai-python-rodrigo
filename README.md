@@ -7,11 +7,6 @@ Duas páginas independentes, com duração sugerida de 27 minutos cada:
 - Python: `index.html`, execução de Python, seis desafios e duas questões conceituais.
 - Matriz de Eisenhower: `eisenhower/index.html`, estudo de caso e múltipla escolha.
 
-## Sites disponíveis para a aula
-
-- Python: https://senai-python-rodrigo.nathsant.chatgpt.site
-- Eisenhower: https://senai-eisenhower-rodrigo.nathsant.chatgpt.site
-
 ## Publicação no GitHub Pages
 
 Em Settings > Pages, selecione Deploy from a branch, branch main, pasta /(root) e Save.
