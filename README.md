@@ -1,31 +1,36 @@
-# Laboratório de Python
+# Atividades autocorrigíveis SENAI
 
-Atividade autocorrigível da Aula 01 da UC Programação de Aplicativos, Técnico em Desenvolvimento de Sistemas.
+Professor Rodrigo Moreira. Aula 01 de Programação de Aplicativos.
 
-Professor Rodrigo Moreira, SENAI.
+Duas páginas independentes, com duração sugerida de 27 minutos cada:
 
-## Acesso
+- Python: `index.html`, execução de Python, seis desafios e duas questões conceituais.
+- Matriz de Eisenhower: `eisenhower/index.html`, estudo de caso e múltipla escolha.
 
-Versão publicada: https://senai-python-rodrigo.nathsant.chatgpt.site
+## Sites disponíveis para a aula
 
-Tempo sugerido: 27 minutos. As respostas podem ser revisadas e o resultado pode ser baixado em texto ou salvo em PDF. Não há envio automático ao professor.
+- Python: https://senai-python-rodrigo.nathsant.chatgpt.site
+- Eisenhower: https://senai-eisenhower-rodrigo.nathsant.chatgpt.site
 
-## Publicar no GitHub Pages
+## Publicação no GitHub Pages
 
-1. Em Settings > Pages, selecione Deploy from a branch.
-2. Selecione a branch main e a pasta / (root).
-3. Salve e aguarde a publicação.
+Em Settings > Pages, selecione Deploy from a branch, branch main, pasta /(root) e Save.
 
-O projeto usa HTML, CSS e JavaScript e não exige compilação.
+Após a ativação e implantação, os endereços previstos são:
+
+- https://rodheisenberg.github.io/senai-python-rodrigo/
+- https://rodheisenberg.github.io/senai-python-rodrigo/eisenhower/
 
 ## Executar localmente
 
-Na pasta do projeto, execute `python -m http.server 8000` e abra http://localhost:8000. Use um servidor HTTP, pois a página carrega arquivos com fetch().
+Execute `python -m http.server 8000` nesta pasta. Abra http://localhost:8000 para Python ou http://localhost:8000/eisenhower/ para a matriz. Os sites precisam de HTTP para carregar os arquivos JSON.
 
 ## Progresso e resultados
 
-O progresso é salvo no navegador usando localStorage. O nome é opcional. Não há banco de dados nem coleta centralizada das respostas. A autocorreção é destinada à prática em aula.
+Nome opcional, progresso salvo no navegador em localStorage, revisão das respostas e resultado baixado em texto ou impresso em PDF. Não há envio automático ao professor nem coleta centralizada.
 
-## Ambiente Python
+## Python
 
-Python executa em um Web Worker com Pyodide 0.29.2. A primeira carga precisa de internet para baixar o ambiente do CDN jsDelivr. O arquivo checks.py verifica os requisitos dos seis desafios. A execução tem limite de 8 segundos para evitar travamento por repetição sem fim.
+O código executa em Web Worker com Pyodide 0.29.2, baixado do CDN jsDelivr. A primeira carga exige internet. checks.py verifica os seis desafios. Cada execução tem limite de 8 segundos.
+
+HTML, CSS e JavaScript, sem compilação.
